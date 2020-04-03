@@ -31,9 +31,9 @@ export class WelcomeScreen extends Component {
   }
 
   render() {
-    if (_.isNull(this.state.token)) {
-      return <AppLoading />;
-    }
+    // if (_.isNull(this.state.token)) {
+    //   return <AppLoading />;
+    // }
     return (
       <Slides data={SLIDE_DATA} onComplete={this.onSlidesComplete} />
     );

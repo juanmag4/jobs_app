@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Platform, Dimensions } from 'react-native';
 import { connect } from 'react-redux';
-import { MapView } from 'expo';
+import MapView from 'react-native-maps';
 import { Card, Button, Icon } from 'react-native-elements';
 
 import { Swipe } from '../components/Swipe';

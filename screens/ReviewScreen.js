@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, Platform, ScrollView, StyleSheet, Linking } from 'react-native';
 import { Card, Button } from 'react-native-elements';
 import { connect } from 'react-redux';
-import { MapView } from "expo";
+import MapView from 'react-native-maps';
 
 class ReviewScreen extends Component {
   static navigationOptions = ({ navigation }) => {

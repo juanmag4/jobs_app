@@ -8,13 +8,16 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "expo": "^32.0.0",
+    "expo": "^34.0.0",
+    "expo-facebook": "~6.0.0",
     "latlng-to-zip": "0.0.2",
     "lodash": "^4.17.11",
     "qs": "^6.7.0",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
     "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.0.17",
+    "react-native-maps": "0.27.1",
     "react-navigation": "^3.9.1",
     "react-redux": "6.0.1",
     "redux": "^4.0.1",
@@ -22,7 +25,7 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "babel-preset-expo": "^6.0.0"
   },
   "private": true
 }
